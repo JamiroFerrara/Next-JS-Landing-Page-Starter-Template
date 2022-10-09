@@ -8,12 +8,12 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-slate-800">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="/">
-            <a>Sign in</a>
+            <a className="text-gray-200">Sign in</a>
           </Link>
         </li>
       </NavbarTwoColumns>
